@@ -8,3 +8,5 @@ RUN composer install --no-interaction --prefer-dist --no-scripts --no-autoloader
 RUN rm -rf vendor
 WORKDIR "/var/www"
 
+EXPOSE 80
+
